@@ -1,7 +1,7 @@
 import { ref, type Ref } from 'vue'
 import { defineStore } from 'pinia'
 import type { User } from '@/interfaces/User'
-import * as data from '@/userList.json'
+import data from '@/userList.json'
 
 export const useUsersStore = defineStore('users', () => {
   const users: Ref<Map<Number, User>> = ref(new Map())

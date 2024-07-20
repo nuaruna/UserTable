@@ -4,4 +4,5 @@ export interface User {
   lastName: string | null
   email: string | null
   lastVisitedAt: number
+  lastVisitedAtString?: string
 }
