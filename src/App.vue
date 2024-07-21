@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Datatable from './components/Datatable.vue'
+import UserList from './components/UserList.vue'
 </script>
 
 <template>
-	<Datatable />
+  <UserList />
 </template>
